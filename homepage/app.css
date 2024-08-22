@@ -2,26 +2,45 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevents horizontal scroll */
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: black;
     color: white;
     padding: 10px;
     font-size: 18px;
+    position: relative; /* Allows arrows to be positioned absolutely */
+    width: 100%;
 }
 
 .text {
     text-align: center;
-    flex-grow: 1;
+    flex-grow: 1; /* Allows the text to take up all available space between arrows */
+    z-index: 1; /* Ensures text is above other elements */
 }
 
 .arrow {
+    position: absolute; /* Positions arrows on the sides of the header */
+    top: 50%;
+    transform: translateY(-50%);
     padding: 0 15px;
+    font-size: 20px;
     cursor: pointer;
     user-select: none;
+    z-index: 2; /* Ensures arrows are above text */
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
 }
 
