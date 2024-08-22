@@ -1,1 +1,27 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.text {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.arrow {
+    padding: 0 15px;
+    cursor: pointer;
+    user-select: none;
+}
 
