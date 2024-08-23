@@ -4,12 +4,12 @@ body, html {
     font-family: Arial, sans-serif;
     width: 100%;
     height: 100%;
-    overflow-x: hidden; /* Prevents horizontal scroll */
+    overflow-x: hidden;
 }
 
 .header {
     display: flex;
-    justify-content: space-between; /* Changed this from center to space-between */
+    justify-content: space-between; 
     align-items: center;
     background-color: black;
     color: white;
@@ -20,19 +20,19 @@ body, html {
 
 .text {
     text-align: center;
-    flex-grow: 1; /* Allows the text to take up all available space between arrows */
-    z-index: 1; /* Ensures text is above other elements */
+    flex-grow: 1; 
+    z-index: 1; 
 }
 
 .arrow {
-    position: absolute; /* Positions arrows on the sides of the header */
+    position: absolute; 
     top: 50%;
     transform: translateY(-50%);
     padding: 0 15px;
     font-size: 20px;
     cursor: pointer;
     user-select: none;
-    z-index: 2; /* Ensures arrows are above text */
+    z-index: 2; 
 }
 
 .left-arrow {
@@ -43,7 +43,7 @@ body, html {
     right: 10px;
 }
 .logo img {
-    max-height: 50px; /* Adjust the height of the logo */
+    max-height: 50px; 
 }
 
 .search-bar input[type="text"] {
@@ -63,12 +63,12 @@ body, html {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Use flexbox to align items */
-    justify-content: center; /* Center the items horizontally */
+    display: flex; 
+    justify-content: center; 
 }
 
 .nav-menu ul li {
-    margin: 0 20px; /* Add some space between the items */
+    margin: 0 20px; 
 }
 
 .nav-menu ul li a {
