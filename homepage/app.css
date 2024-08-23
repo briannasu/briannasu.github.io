@@ -46,8 +46,6 @@ body, html {
 .nav-menu {
     background-color: white;
     width: 100%;
-    display: flex;
-    justify-content: center;
     border-bottom: 1px solid #ddd;
 }
 
@@ -55,11 +53,12 @@ body, html {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center the items horizontally */
 }
 
 .nav-menu ul li {
-    margin: 0 15px;
+    margin: 0 20px; /* Add some space between the items */
 }
 
 .nav-menu ul li a {
