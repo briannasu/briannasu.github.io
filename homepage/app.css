@@ -42,6 +42,16 @@ body, html {
 .right-arrow {
     right: 10px;
 }
+.logo img {
+    max-height: 50px; /* Adjust the height of the logo */
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
 
 .nav-menu {
     background-color: white;
