@@ -123,3 +123,14 @@ body, html {
 .nav-menu ul li a:hover {
     color: gray;
 }
+
+.large-image-container {
+    width: 100%;
+    margin: 20px 0; 
+}
+
+.large-banner {
+    width: 100%;
+    display: block;
+    height: auto; 
+}
