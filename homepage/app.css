@@ -48,7 +48,8 @@ body, html {
 
 .search-container {
     flex-grow: 1;
-    margin: 0 20px;
+    max-width: 50%; 
+    margin-right: 20px; 
 }
 
 .search-bar {
@@ -79,12 +80,18 @@ body, html {
 }
 
 .heart-icon::before {
-    content: "\2764"; 
+    content: "\2764";
 }
 
 .cart-icon::before {
-    content: "\1F6D2"; 
+    content: "\1F6D2";
 }
+
+.logo {
+    margin-left: 20px;
+}
+
+
 .nav-menu {
     background-color: white;
     width: 100%;
