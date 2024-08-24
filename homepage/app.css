@@ -46,13 +46,45 @@ body, html {
     max-height: 50px; 
 }
 
-.search-bar input[type="text"] {
-    padding: 5px;
-    width: 200px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
+.search-container {
+    flex-grow: 1;
+    margin: 0 20px;
 }
 
+.search-bar {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.globe-icon::before {
+    content: "\1F310"; 
+}
+
+.user-icon::before {
+    content: "\1F464";
+}
+
+.heart-icon::before {
+    content: "\2764"; 
+}
+
+.cart-icon::before {
+    content: "\1F6D2"; 
+}
 .nav-menu {
     background-color: white;
     width: 100%;
