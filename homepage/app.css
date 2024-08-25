@@ -55,7 +55,7 @@ body, html {
 }
 
 .logo img {
-    max-height: 50px; /* Adjust this as needed */
+    max-height: 50px; 
 }
 
 .search-bar {
@@ -66,18 +66,18 @@ body, html {
 
 .search-bar input[type="text"] {
     padding: 5px;
-    width: 80%; /* Adjust this width as needed */
+    width: 80%; 
     border: 1px solid #ddd;
     border-radius: 3px;
 }
 
 .icons {
     display: flex;
-    gap: 10px; /* Adjust the spacing between icons */
+    gap: 10px; 
 }
 
 .icons img {
-    max-height: 30px; /* Adjust this as needed */
+    max-height: 30px; 
 }
 .logo {
     order: 1; 
