@@ -45,50 +45,40 @@ body, html {
 .logo img {
     max-height: 50px; 
 }
+.middle-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+}
 
-.search-container {
-    flex-grow: 1;
-    max-width: 60%; 
-    margin: 0 20px;
-    order: 2; 
+.logo img {
+    max-height: 50px; /* Adjust this as needed */
 }
 
 .search-bar {
-    width: 100%;
-    padding: 10px 15px;
-    border-radius: 25px;
-    border: 1px solid #ccc;
-    font-size: 16px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    width: 80%; /* Adjust this width as needed */
+    border: 1px solid #ddd;
+    border-radius: 3px;
 }
 
 .icons {
     display: flex;
-    align-items: center;
-    order: 3; 
+    gap: 10px; /* Adjust the spacing between icons */
 }
 
-.icon {
-    margin-left: 20px;
-    font-size: 20px;
-    cursor: pointer;
+.icons img {
+    max-height: 30px; /* Adjust this as needed */
 }
-
-.globe-icon::before {
-    content: "\1F310"; 
-}
-
-.user-icon::before {
-    content: "\1F464";
-}
-
-.heart-icon::before {
-    content: "\2764"; 
-}
-
-.cart-icon::before {
-    content: "\1F6D2"; 
-}
-
 .logo {
     order: 1; 
 }
