@@ -54,26 +54,30 @@ body, html {
     background-color: white;
 }
 
+.logo {
+    margin-right: 20px;
+}
+
 .logo img {
-    max-height: 50px; 
+    max-height: 50px;
+}
+
+.search-container {
+    flex-grow: 1;
+    margin-left: 20px;
 }
 
 .search-bar {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-}
-
-.search-bar input[type="text"] {
+    width: 100%; 
     padding: 5px;
-    width: 80%; 
     border: 1px solid #ddd;
     border-radius: 3px;
 }
 
 .icons {
     display: flex;
-    gap: 10px; 
+    gap: 10px;
+    margin-left: 20px; 
 }
 
 .icons img {
