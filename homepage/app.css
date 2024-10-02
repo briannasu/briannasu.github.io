@@ -62,27 +62,7 @@ body, html {
     max-height: 50px;
 }
 
-.search-container {
-    flex-grow: 1;
-    margin-left: 20px;
-}
 
-.search-bar {
-    width: 100%; 
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-}
-
-.icons {
-    display: flex;
-    gap: 10px;
-    margin-left: 20px; 
-}
-
-.icons img {
-    max-height: 30px; 
-}
 .logo {
     order: 1; 
 }
