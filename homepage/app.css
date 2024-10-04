@@ -120,3 +120,80 @@ body, html {
     display: block;
     height: auto; 
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: white;
+    padding: 20px;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-item:hover .dropdown-content {
+    display: flex;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    z-index: 1;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.category ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.category ul li {
+    margin: 10px 0;
+}
+
+.category ul li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+.category ul li a:hover {
+    color: gray;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-image {
+    max-width: 200px;
+    height: auto;
+}
