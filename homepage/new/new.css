@@ -38,8 +38,8 @@ h1 {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);  /* Changed from 4 columns to 2 */
+    gap: 40px;  /* Increased the gap to match the spacing in the second image */
 }
 
 .product-card {
@@ -60,17 +60,16 @@ h1 {
     color: grey;
 }
 
-.product-grid {
-  width: 22%; /* Adjust this to fit the layout */
-  text-align: center;
-  margin-bottom: 20px;
+.product-grid img {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
 }
 
-.product-grid img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  border: 1px solid #e0e0e0;
-  border-radius: 5px;
+/* Add some padding/margin to the section to resemble the second image more closely */
+.new-arrivals {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
+
+
