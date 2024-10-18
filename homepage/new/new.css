@@ -80,3 +80,13 @@ h1 {
         gap: 20px;
     }
 }
+
+.product-card img {
+    width: 100%; /* This makes the image fill the container */
+    max-width: 250px; /* Set a maximum width for smaller images */
+    height: auto; /* Maintain the aspect ratio */
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
