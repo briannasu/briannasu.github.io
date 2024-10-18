@@ -38,8 +38,8 @@ h1 {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);  /* Changed from 4 columns to 2 */
-    gap: 40px;  /* Increased the gap to match the spacing in the second image */
+    grid-template-columns: repeat(4, 1fr);  
+    gap: 40px;  
 }
 
 .product-card {
@@ -65,7 +65,6 @@ h1 {
     border-radius: 5px;
 }
 
-/* Add some padding/margin to the section to resemble the second image more closely */
 .new-arrivals {
     max-width: 1200px;
     margin: 0 auto;
