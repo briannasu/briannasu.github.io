@@ -82,9 +82,9 @@ h1 {
 }
 
 .product-card img {
-    width: 100%; /* This makes the image fill the container */
-    max-width: 250px; /* Set a maximum width for smaller images */
-    height: auto; /* Maintain the aspect ratio */
+    width: 100%; 
+    max-width: 250px; 
+    height: auto; 
     display: block;
     margin: 0 auto;
     border: 1px solid #e0e0e0;
